@@ -1,1 +1,13 @@
 Hey, Read me!
+
+deriv_trading_bot
+
+Quickstart
+ - Install deps: pip install -r requirements.txt
+ - Run a backtest: python run_backtest.py --csv data/sample_prices.csv
+
+Project layout
+ - src/connector.py: placeholder Deriv connector and CSV loader
+ - src/strategy.py: SMA crossover strategy
+ - src/backtester.py: simple backtester
+ - run_backtest.py: example runner
